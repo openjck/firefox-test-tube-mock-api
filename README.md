@@ -1,4 +1,4 @@
-This is a mock API for use with the [test-tube](https://github.com/openjck/test-tube)
+This is a mock API for use with the [Firefox Test Tube](https://github.com/openjck/firefox-test-tube)
 project.
 
 # Usage instructions
