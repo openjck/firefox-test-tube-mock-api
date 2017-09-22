@@ -27,7 +27,7 @@ Run `yarn start`
     "id": 2,
     "name": "Example experiment 2",
     "completed": false
-  }
+  },
   {
     "id": 3,
     "name": "Example experiment 3",
@@ -46,15 +46,15 @@ Run `yarn start`
   "authors": [
     {
       "name": "Rob Miller",
-      "email": "robm@example.com"
+      "email": "rmiller@mozilla.com"
     },
     {
       "name": "Davor Spasovski",
-      "email": "davor@example.com"
+      "email": "dspasovski@mozilla.com"
     },
     {
       "name": "Jannis Leidel",
-      "email": "jannis@example.com"
+      "email": "jleidel@mozilla.com"
     }
   ],
   "populations": {
