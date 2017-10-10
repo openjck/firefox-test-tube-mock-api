@@ -12,6 +12,12 @@ project.
 
 Run `yarn start`
 
+# Generating random sample data
+
+[This mockaroo](https://www.mockaroo.com/schemas/82378) can help generate random
+metric objects. Mockaroo doesn't support nested objects, so you'll need to
+generate the "populations" object some other way.
+
 # Example API output
 
 ## /experiments/
