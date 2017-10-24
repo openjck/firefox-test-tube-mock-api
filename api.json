@@ -1,21 +1,23 @@
 {
-    "experiments-root": [
-        {
-            "id": 1,
-            "name": "Example experiment 1",
-            "completed": true
-        },
-        {
-            "id": 2,
-            "name": "Example experiment 2",
-            "completed": false
-        },
-        {
-            "id": 3,
-            "name": "Example experiment 3",
-            "completed": false
-        }
-    ],
+    "experiments-root": {
+        "experiments": [
+            {
+                "id": 1,
+                "name": "Example experiment 1",
+                "completed": true
+            },
+            {
+                "id": 2,
+                "name": "Example experiment 2",
+                "completed": false
+            },
+            {
+                "id": 3,
+                "name": "Example experiment 3",
+                "completed": false
+            }
+        ]
+    },
     "experiments": [
         {
             "id": 1,
