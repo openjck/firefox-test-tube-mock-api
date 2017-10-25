@@ -169,7 +169,6 @@
             "id": 1,
             "name": "Example metric 1",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget semper eros, ac tempus neque. Ut ipsum turpis, commodo sed nisi at, sollicitudin placerat augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer tristique euismod elit et varius. Donec ut pretium ligula, a commodo diam. Vivamus auctor auctor ligula, eget volutpat nisi lobortis ac. Donec sit amet venenatis nisi. Sed gravida purus nulla, at ullamcorper ligula ullamcorper non. Mauris venenatis quam non arcu pharetra, ut aliquam nibh sodales. Nullam tincidunt viverra lacinia. Suspendisse quis egestas mi, sit amet dignissim purus. Curabitur auctor leo eu dictum tincidunt. Proin vestibulum molestie dolor a gravida.",
-            "n": 32082,
             "type": "line",
             "units": {
                 "x": "GPUs"
@@ -177,6 +176,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 33533,
                     "data": [
                         { "x": 2184, "y": 56.695 },
                         { "x": 6231, "y": 88.274 },
@@ -192,6 +192,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 30749,
                     "data": [
                         { "x": 945, "y": 93.539 },
                         { "x": 7232, "y": 18.947 },
@@ -211,7 +212,6 @@
             "id": 2,
             "name": "Example metric 2",
             "description": "Ut lacus nunc, cursus vitae leo et, dignissim rhoncus augue. Quisque feugiat molestie justo sit amet vestibulum. Phasellus urna velit, condimentum nec tortor vel, imperdiet commodo ligula. Etiam maximus erat non lacus aliquet porta. Phasellus eget luctus enim. Fusce ultrices tellus ut ultrices pretium. Ut ultricies ex hendrerit leo posuere laoreet. Aliquam erat volutpat. Aenean condimentum fringilla massa, a ultricies ex accumsan et. Integer bibendum lorem vel semper pulvinar. Vivamus id nisl ullamcorper massa ullamcorper suscipit vestibulum in tellus. Etiam elementum purus sit amet viverra sodales. Integer lacinia nisi at efficitur blandit. In imperdiet vehicula mauris, vitae pharetra urna porta sit amet. Morbi ut rhoncus augue, ac dictum enim.",
-            "n": 23701,
             "type": "bar",
             "categories": [
                 "News",
@@ -226,6 +226,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 37052,
                     "data": [
                         2305,
                         3252,
@@ -235,6 +236,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 38869,
                     "data": [
                         1351,
                         2356,
@@ -248,7 +250,6 @@
             "id": 3,
             "name": "Example metric 3",
             "description": "Pellentesque luctus mattis nibh vel rhoncus. Mauris maximus elit nec mauris tristique, vitae elementum orci vulputate. Sed in commodo justo. Nam laoreet velit sed leo fringilla, sed viverra lacus pretium. Ut at elit lacus. In blandit egestas consequat. Mauris velit ante, laoreet sit amet pulvinar vitae, volutpat vel purus. Duis accumsan, sapien eget cursus convallis, nisl enim pharetra nisi, at congue elit diam vel libero. Ut cursus ultricies eros in tristique. Mauris massa purus, pretium nec porta iaculis, mollis id ante. Curabitur finibus lectus sed leo sagittis, at scelerisque magna tincidunt. Proin efficitur, nulla at aliquam convallis, justo tortor scelerisque erat, eget porttitor orci sapien vitae purus. Phasellus consequat et arcu ac ultrices. Maecenas gravida quis sapien ac varius. Cras eu pulvinar dui. Aenean et ultrices lectus, in dictum metus.",
-            "n": 20833,
             "type": "line",
             "units": {
                 "x": "Bookmarks"
@@ -256,6 +257,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 48864,
                     "data": [
                         { "x": 9104, "y": 8.291 },
                         { "x": 575, "y": 62.033 },
@@ -270,6 +272,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 50681,
                     "data": [
                         { "x": 2527, "y": 71.627 },
                         { "x": 9932, "y": 3.427 },
@@ -289,7 +292,6 @@
             "id": 4,
             "name": "Example metric 4",
             "description": "Fusce massa ante, condimentum vel nisi non, sagittis sagittis mi. Nam tempor hendrerit lectus aliquam congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla interdum ut risus ac condimentum. Proin in metus erat. Proin ut purus tempus, tristique purus et, porta dui. Vestibulum fermentum molestie pretium. Fusce ac vestibulum quam. Vivamus sed sem sapien. Nullam dictum velit ac nisl posuere, ut sollicitudin nulla efficitur. Nunc non purus ligula. Fusce id commodo nunc.",
-            "n": 70328,
             "type": "line",
             "units": {
                 "x": "Themes"
@@ -297,6 +299,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 22456,
                     "data": [
                         { "x": 6264, "y": 51.878 },
                         { "x": 8932, "y": 93.458 },
@@ -312,6 +315,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 24273,
                     "data": [
                         { "x": 7312, "y": 54.502 },
                         { "x": 444, "y": 65.285 },
@@ -331,7 +335,6 @@
             "id": 5,
             "name": "Example metric 5",
             "description": "Quisque risus ipsum, hendrerit quis sem at, malesuada volutpat nulla. Sed pellentesque consectetur justo, fringilla egestas ipsum. Maecenas ultrices at velit ac vestibulum. Curabitur mi dui, ornare nec lobortis nec, sodales suscipit mi. In a molestie leo. Integer sed erat interdum, porttitor purus eu, tempus purus. Cras congue, risus nec consectetur bibendum, mi nibh pretium metus, id fermentum elit libero et mi. Sed suscipit risus ipsum, eu placerat diam sagittis eu. Vivamus ut nisi et massa auctor blandit. Etiam et urna consectetur, sodales justo ut, viverra lorem. Ut tempus ex ac vulputate vulputate. Nam convallis tortor dolor, laoreet volutpat ante fermentum et.",
-            "n": 82049,
             "type": "line",
             "units": {
                 "x": "Extensions"
@@ -339,6 +342,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 26999,
                     "data": [
                         { "x": 6100, "y": 43.58 },
                         { "x": 8355, "y": 83.601 },
@@ -354,6 +358,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 28816,
                     "data": [
                         { "x": 7387, "y": 64.171 },
                         { "x": 2843, "y": 57.323 },
@@ -373,7 +378,6 @@
             "id": 6,
             "name": "Example metric 6",
             "description": "Maecenas accumsan vitae mi in malesuada. Proin tincidunt arcu a dictum dapibus. Curabitur ut nulla massa. Morbi et velit mattis, blandit libero vitae, consequat velit. Ut a congue libero. Proin lectus metus, molestie vel ultrices id, sodales ut ex. Ut hendrerit tortor et nunc ullamcorper lacinia. Vivamus aliquet justo quis arcu porttitor suscipit.",
-            "n": 48201,
             "type": "line",
             "units": {
                 "x": "Profiles"
@@ -381,6 +385,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 34268,
                     "data": [
                         { "x": 5749, "y": 59.962 },
                         { "x": 6419, "y": 77.915 },
@@ -396,6 +401,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 36085,
                     "data": [
                         { "x": 6608, "y": 31.011 },
                         { "x": 2995, "y": 29.075 },
@@ -415,7 +421,6 @@
             "id": 7,
             "name": "Example metric 7",
             "description": "Aenean ornare et erat placerat elementum. Morbi ut erat ac leo feugiat fermentum sit amet eu sapien. Nulla fermentum tincidunt pharetra. Sed sodales mi nec finibus pretium. Etiam facilisis pharetra interdum. Quisque arcu libero, ornare id lorem ut, bibendum tempor massa. Morbi interdum arcu eu massa pulvinar consectetur.",
-            "n": 48201,
             "type": "line",
             "units": {
                 "x": "Crashes"
@@ -423,6 +428,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 37902,
                     "data": [
                         { "x": 1333, "y": 70.377 },
                         { "x": 7851, "y": 63.63 },
@@ -438,6 +444,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 39720,
                     "data": [
                         { "x": 5818, "y": 9.857 },
                         { "x": 872, "y": 27.353 },
@@ -457,7 +464,6 @@
             "id": 8,
             "name": "Example metric 8",
             "description": "Maecenas aliquet sagittis consequat. Fusce eget est luctus velit viverra suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam turpis lacus, vehicula eu molestie non, ornare interdum libero. Nullam mauris erat, semper id orci in, iaculis fermentum libero. Suspendisse fermentum, enim et imperdiet scelerisque, nisi turpis aliquet erat, at gravida mauris leo at augue. Ut eu nunc eros. Morbi felis purus, viverra ac aliquet ac, vulputate non enim. Suspendisse vel facilisis ipsum.",
-            "n": 38412,
             "type": "line",
             "units": {
                 "x": "Days"
@@ -465,6 +471,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 41537,
                     "data": [
                         { "x": 4033, "y": 65.128 },
                         { "x": 5511, "y": 38.608 },
@@ -480,6 +487,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 43354,
                     "data": [
                         { "x": 4656, "y": 96.592 },
                         { "x": 2231, "y": 37.688 },
@@ -499,7 +507,6 @@
             "id": 9,
             "name": "Example metric 9",
             "description": "Vestibulum nec velit facilisis, ornare sapien pulvinar, fringilla nulla. Morbi sit amet tellus eros. Sed blandit elementum ante, nec aliquam leo convallis id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc in arcu eget massa varius laoreet. Praesent a nunc sit amet augue dignissim ullamcorper quis ut arcu. Vivamus sollicitudin laoreet malesuada. Donec congue velit nec vestibulum hendrerit.",
-            "n": 92301,
             "type": "line",
             "units": {
                 "x": "Hard drives"
@@ -507,6 +514,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 45171,
                     "data": [
                         { "x": 9055, "y": 20.668 },
                         { "x": 5957, "y": 93.59 },
@@ -522,6 +530,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 46989,
                     "data": [
                         { "x": 3818, "y": 26.253 },
                         { "x": 1815, "y": 48.29 },
@@ -541,7 +550,6 @@
             "id": 10,
             "name": "Example metric 10",
             "description": "Vestibulum maximus, mi id volutpat lobortis, lorem risus iaculis dolor, eget ultrices elit arcu eu mauris. Nam blandit semper venenatis. Aliquam faucibus velit at eros pulvinar pellentesque. Aliquam erat volutpat. Nulla quam neque, consectetur in erat id, tempor facilisis turpis. Fusce cursus maximus velit, in accumsan felis iaculis et. Pellentesque iaculis facilisis lacinia. Integer non orci mollis, aliquam ligula ac, varius elit. Praesent sapien erat, imperdiet ac massa in, dictum tincidunt purus. In hac habitasse platea dictumst. Nulla facilisi.",
-            "n": 37291,
             "type": "line",
             "units": {
                 "x": "Screens"
@@ -549,6 +557,7 @@
             "populations": [
                 {
                     "name": "control",
+                    "n": 48806,
                     "data": [
                         { "x": 9736, "y": 63.367 },
                         { "x": 7817, "y": 71.913 },
@@ -564,6 +573,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 50623,
                     "data": [
                         { "x": 5344, "y": 33.643 },
                         { "x": 7027, "y": 80.652 },
@@ -583,11 +593,11 @@
             "id": 11,
             "name": "Example metric 11",
             "description": "Nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in",
-            "n": 30182,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 20581,
                     "data": [
                         { "x": 23455, "y": 36.63 },
                         { "x": 1590, "y": 91.35 },
@@ -598,6 +608,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 22398,
                     "data": [
                         { "x": 3349, "y": 95.31 },
                         { "x": 9710, "y": 38.68 },
@@ -612,11 +623,11 @@
             "id": 12,
             "name": "Example metric 12",
             "description": "Blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget",
-            "n": 45426,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 24215,
                     "data": [
                         { "x": 32580, "y": 20.92 },
                         { "x": 3447, "y": 78.41 },
@@ -627,6 +638,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 26033,
                     "data": [
                         { "x": 17985, "y": 79.99 },
                         { "x": 21619, "y": 47.26 },
@@ -641,11 +653,11 @@
             "id": 13,
             "name": "Example metric 13",
             "description": "Diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare",
-            "n": 40553,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 27850,
                     "data": [
                         { "x": 23378, "y": 91.82 },
                         { "x": 27013, "y": 8.18 },
@@ -656,6 +668,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 29667,
                     "data": [
                         { "x": 8783, "y": 22.24 },
                         { "x": 12417, "y": 66.64 },
@@ -670,11 +683,11 @@
             "id": 14,
             "name": "Example metric 14",
             "description": "Eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit",
-            "n": 21391,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 31484,
                     "data": [
                         { "x": 7758, "y": 52.82 },
                         { "x": 11392, "y": 0.65 },
@@ -685,6 +698,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 33301,
                     "data": [
                         { "x": 25930, "y": 46.18 },
                         { "x": 29565, "y": 19.26 },
@@ -699,11 +713,11 @@
             "id": 15,
             "name": "Example metric 15",
             "description": "Primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum",
-            "n": 44831,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 35119,
                     "data": [
                         { "x": 12243, "y": 61.61 },
                         { "x": 15878, "y": 48.70 },
@@ -714,6 +728,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 36936,
                     "data": [
                         { "x": 30415, "y": 15.53 },
                         { "x": 1282, "y": 38.17 },
@@ -728,11 +743,11 @@
             "id": 16,
             "name": "Example metric 16",
             "description": "Augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in",
-            "n": 31138,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 38753,
                     "data": [
                         { "x": 17637, "y": 65.97 },
                         { "x": 21271, "y": 75.13 },
@@ -743,6 +758,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 40570,
                     "data": [
                         { "x": 3041, "y": 55.36 },
                         { "x": 6676, "y": 10.62 },
@@ -757,11 +773,11 @@
             "id": 17,
             "name": "Example metric 17",
             "description": "Curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac",
-            "n": 37710,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 42388,
                     "data": [
                         { "x": 27574, "y": 97.87 },
                         { "x": 32117, "y": 50.26 },
@@ -772,6 +788,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 44205,
                     "data": [
                         { "x": 13887, "y": 30.62 },
                         { "x": 17521, "y": 42.90 },
@@ -786,11 +803,11 @@
             "id": 18,
             "name": "Example metric 18",
             "description": "Eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec",
-            "n": 46986,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 46931,
                     "data": [
                         { "x": 199, "y": 58.08 },
                         { "x": 4742, "y": 95.82 },
@@ -801,6 +818,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 48748,
                     "data": [
                         { "x": 19280, "y": 83.54 },
                         { "x": 22915, "y": 68.69 },
@@ -815,11 +833,11 @@
             "id": 19,
             "name": "Example metric 19",
             "description": "Convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea",
-            "n": 34634,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 50565,
                     "data": [
                         { "x": 4685, "y": 63.28 },
                         { "x": 8319, "y": 61.86 },
@@ -830,6 +848,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 52382,
                     "data": [
                         { "x": 23765, "y": 17.95 },
                         { "x": 27400, "y": 72.64 },
@@ -844,11 +863,11 @@
             "id": 20,
             "name": "Example metric 20",
             "description": "Id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla",
-            "n": 41765,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 21432,
                     "data": [
                         { "x": 9170, "y": 71.69 },
                         { "x": 12804, "y": 15.64 },
@@ -859,6 +878,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 23249,
                     "data": [
                         { "x": 28251, "y": 62.98 },
                         { "x": 31885, "y": 81.50 },
@@ -873,11 +893,11 @@
             "id": 21,
             "name": "Example metric 21",
             "description": "Ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices",
-            "n": 25850,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 25066,
                     "data": [
                         { "x": 13655, "y": 62.78 },
                         { "x": 17289, "y": 21.46 },
@@ -888,6 +908,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 26883,
                     "data": [
                         { "x": 32736, "y": 12.85 },
                         { "x": 3602, "y": 20.83 },
@@ -902,11 +923,11 @@
             "id": 22,
             "name": "Example metric 22",
             "description": "At velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut",
-            "n": 47029,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 28700,
                     "data": [
                         { "x": 18140, "y": 97.49 },
                         { "x": 21774, "y": 41.43 },
@@ -917,6 +938,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 30518,
                     "data": [
                         { "x": 8087, "y": 37.95 },
                         { "x": 11722, "y": 58.91 },
@@ -931,11 +953,11 @@
             "id": 23,
             "name": "Example metric 23",
             "description": "Id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi",
-            "n": 46768,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 32335,
                     "data": [
                         { "x": 27168, "y": 8.70 },
                         { "x": 30803, "y": 89.69 },
@@ -946,6 +968,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 34152,
                     "data": [
                         { "x": 12572, "y": 1.79 },
                         { "x": 17115, "y": 85.19 },
@@ -960,11 +983,11 @@
             "id": 24,
             "name": "Example metric 24",
             "description": "Sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti",
-            "n": 13522,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 36878,
                     "data": [
                         { "x": 31653, "y": 45.45 },
                         { "x": 2520, "y": 51.29 },
@@ -975,6 +998,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 38695,
                     "data": [
                         { "x": 17057, "y": 6.52 },
                         { "x": 21601, "y": 70.77 },
@@ -989,11 +1013,11 @@
             "id": 25,
             "name": "Example metric 25",
             "description": "Nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a",
-            "n": 32692,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 40512,
                     "data": [
                         { "x": 3370, "y": 6.19 },
                         { "x": 7005, "y": 78.28 },
@@ -1004,6 +1028,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 42330,
                     "data": [
                         { "x": 21543, "y": 64.84 },
                         { "x": 25177, "y": 56.04 },
@@ -1018,11 +1043,11 @@
             "id": 26,
             "name": "Example metric 26",
             "description": "Mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam",
-            "n": 18041,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 44147,
                     "data": [
                         { "x": 7855, "y": 94.38 },
                         { "x": 11490, "y": 21.10 },
@@ -1033,6 +1058,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 45964,
                     "data": [
                         { "x": 26028, "y": 15.24 },
                         { "x": 29662, "y": 34.14 },
@@ -1047,11 +1073,11 @@
             "id": 27,
             "name": "Example metric 27",
             "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat",
-            "n": 18906,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 47781,
                     "data": [
                         { "x": 13249, "y": 81.16 },
                         { "x": 16884, "y": 30.17 },
@@ -1062,6 +1088,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 49599,
                     "data": [
                         { "x": 31421, "y": 10.40 },
                         { "x": 2288, "y": 15.31 },
@@ -1076,11 +1103,11 @@
             "id": 28,
             "name": "Example metric 28",
             "description": "Aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum",
-            "n": 14840,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 51416,
                     "data": [
                         { "x": 21369, "y": 8.51 },
                         { "x": 25003, "y": 84.09 },
@@ -1091,6 +1118,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 20465,
                     "data": [
                         { "x": 6773, "y": 54.74 },
                         { "x": 10407, "y": 38.07 },
@@ -1105,11 +1133,11 @@
             "id": 29,
             "name": "Example metric 29",
             "description": "Quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien",
-            "n": 38199,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 22282,
                     "data": [
                         { "x": 25854, "y": 46.49 },
                         { "x": 29488, "y": 19.65 },
@@ -1120,6 +1148,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 24099,
                     "data": [
                         { "x": 11258, "y": 8.07 },
                         { "x": 14893, "y": 53.06 },
@@ -1134,11 +1163,11 @@
             "id": 30,
             "name": "Example metric 30",
             "description": "Nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed",
-            "n": 38909,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 25917,
                     "data": [
                         { "x": 30339, "y": 59.86 },
                         { "x": 1205, "y": 47.29 },
@@ -1149,6 +1178,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 28643,
                     "data": [
                         { "x": 15743, "y": 88.43 },
                         { "x": 19378, "y": 68.59 },
@@ -1163,11 +1193,11 @@
             "id": 31,
             "name": "Example metric 31",
             "description": "Commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis",
-            "n": 35870,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 30460,
                     "data": [
                         { "x": 2056, "y": 74.19 },
                         { "x": 5691, "y": 46.99 },
@@ -1178,6 +1208,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 32277,
                     "data": [
                         { "x": 20228, "y": 46.95 },
                         { "x": 23863, "y": 35.96 },
@@ -1192,11 +1223,11 @@
             "id": 32,
             "name": "Example metric 32",
             "description": "Orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum",
-            "n": 12578,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 34094,
                     "data": [
                         { "x": 6541, "y": 83.71 },
                         { "x": 10176, "y": 65.45 },
@@ -1207,6 +1238,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 35911,
                     "data": [
                         { "x": 24713, "y": 86.79 },
                         { "x": 28348, "y": 11.43 },
@@ -1221,11 +1253,11 @@
             "id": 33,
             "name": "Example metric 33",
             "description": "Tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis",
-            "n": 20279,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 37729,
                     "data": [
                         { "x": 15569, "y": 22.28 },
                         { "x": 19204, "y": 79.12 },
@@ -1236,6 +1268,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 39546,
                     "data": [
                         { "x": 974, "y": 64.69 },
                         { "x": 4608, "y": 73.36 },
@@ -1250,11 +1283,11 @@
             "id": 34,
             "name": "Example metric 34",
             "description": "Id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl",
-            "n": 15275,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 41363,
                     "data": [
                         { "x": 20055, "y": 77.93 },
                         { "x": 23689, "y": 52.63 },
@@ -1265,6 +1298,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 43180,
                     "data": [
                         { "x": 5459, "y": 43.65 },
                         { "x": 9093, "y": 39.63 },
@@ -1279,11 +1313,11 @@
             "id": 35,
             "name": "Example metric 35",
             "description": "Turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam",
-            "n": 20870,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 44998,
                     "data": [
                         { "x": 24540, "y": 29.03 },
                         { "x": 28174, "y": 97.99 },
@@ -1294,6 +1328,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 46815,
                     "data": [
                         { "x": 9944, "y": 24.40 },
                         { "x": 13578, "y": 44.51 },
@@ -1308,11 +1343,11 @@
             "id": 36,
             "name": "Example metric 36",
             "description": "Eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed",
-            "n": 20866,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 48632,
                     "data": [
                         { "x": 29025, "y": 40.64 },
                         { "x": 32659, "y": 38.20 },
@@ -1323,6 +1358,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 50449,
                     "data": [
                         { "x": 14429, "y": 17.11 },
                         { "x": 18063, "y": 77.99 },
@@ -1337,11 +1373,11 @@
             "id": 37,
             "name": "Example metric 37",
             "description": "Pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam",
-            "n": 36645,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 20407,
                     "data": [
                         { "x": 742, "y": 53.38 },
                         { "x": 4376, "y": 98.83 },
@@ -1352,6 +1388,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 25859,
                     "data": [
                         { "x": 18914, "y": 19.48 },
                         { "x": 22549, "y": 10.15 },
@@ -1366,11 +1403,11 @@
             "id": 38,
             "name": "Example metric 38",
             "description": "Duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla",
-            "n": 38396,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 28585,
                     "data": [
                         { "x": 8861, "y": 24.64 },
                         { "x": 13405, "y": 55.32 },
@@ -1381,6 +1418,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 30402,
                     "data": [
                         { "x": 27942, "y": 54.30 },
                         { "x": 31577, "y": 25.72 },
@@ -1395,11 +1433,11 @@
             "id": 39,
             "name": "Example metric 39",
             "description": "Integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla",
-            "n": 48115,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 32219,
                     "data": [
                         { "x": 13347, "y": 54.67 },
                         { "x": 17890, "y": 59.81 },
@@ -1410,6 +1448,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 34036,
                     "data": [
                         { "x": 32427, "y": 7.06 },
                         { "x": 3294, "y": 57.12 },
@@ -1424,11 +1463,11 @@
             "id": 40,
             "name": "Example metric 40",
             "description": "Lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam",
-            "n": 43297,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 35853,
                     "data": [
                         { "x": 17832, "y": 98.36 },
                         { "x": 22375, "y": 60.88 },
@@ -1439,6 +1478,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 37671,
                     "data": [
                         { "x": 4145, "y": 68.59 },
                         { "x": 7779, "y": 85.02 },
@@ -1453,11 +1493,11 @@
             "id": 41,
             "name": "Example metric 41",
             "description": "Cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras",
-            "n": 48529,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 39488,
                     "data": [
                         { "x": 22317, "y": 6.68 },
                         { "x": 25951, "y": 47.31 },
@@ -1468,6 +1508,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 41305,
                     "data": [
                         { "x": 8630, "y": 26.26 },
                         { "x": 12264, "y": 58.87 },
@@ -1482,11 +1523,11 @@
             "id": 42,
             "name": "Example metric 42",
             "description": "Faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie",
-            "n": 11838,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 43122,
                     "data": [
                         { "x": 26802, "y": 83.07 },
                         { "x": 30436, "y": 51.41 },
@@ -1497,6 +1538,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 44940,
                     "data": [
                         { "x": 13115, "y": 11.58 },
                         { "x": 16749, "y": 9.51 },
@@ -1511,11 +1553,11 @@
             "id": 43,
             "name": "Example metric 43",
             "description": "Erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique",
-            "n": 15334,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 47665,
                     "data": [
                         { "x": 31287, "y": 15.69 },
                         { "x": 5788, "y": 1.74 },
@@ -1526,6 +1568,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 49483,
                     "data": [
                         { "x": 21234, "y": 33.60 },
                         { "x": 24869, "y": 23.08 },
@@ -1540,11 +1583,11 @@
             "id": 44,
             "name": "Example metric 44",
             "description": "Dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed",
-            "n": 47850,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 51300,
                     "data": [
                         { "x": 7547, "y": 31.45 },
                         { "x": 11182, "y": 91.81 },
@@ -1555,6 +1598,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 20349,
                     "data": [
                         { "x": 26628, "y": 0.79 },
                         { "x": 30263, "y": 95.33 },
@@ -1569,11 +1613,11 @@
             "id": 45,
             "name": "Example metric 45",
             "description": "Sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut",
-            "n": 25022,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 22166,
                     "data": [
                         { "x": 12032, "y": 51.42 },
                         { "x": 15667, "y": 19.45 },
@@ -1584,6 +1628,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 23984,
                     "data": [
                         { "x": 30205, "y": 4.19 },
                         { "x": 1980, "y": 23.63 },
@@ -1598,11 +1643,11 @@
             "id": 46,
             "name": "Example metric 46",
             "description": "Eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est",
-            "n": 20562,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 25801,
                     "data": [
                         { "x": 16518, "y": 19.97 },
                         { "x": 20152, "y": 6.69 },
@@ -1613,6 +1658,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 27618,
                     "data": [
                         { "x": 1922, "y": 17.83 },
                         { "x": 6465, "y": 17.74 },
@@ -1627,11 +1673,11 @@
             "id": 47,
             "name": "Example metric 47",
             "description": "Curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate",
-            "n": 28445,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 29435,
                     "data": [
                         { "x": 21003, "y": 54.59 },
                         { "x": 24637, "y": 91.89 },
@@ -1642,6 +1688,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 31252,
                     "data": [
                         { "x": 6407, "y": 55.55 },
                         { "x": 10950, "y": 39.08 },
@@ -1656,11 +1703,11 @@
             "id": 48,
             "name": "Example metric 48",
             "description": "Libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate",
-            "n": 32636,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 33070,
                     "data": [
                         { "x": 25488, "y": 90.94 },
                         { "x": 29122, "y": 36.17 },
@@ -1671,6 +1718,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 34887,
                     "data": [
                         { "x": 14526, "y": 84.73 },
                         { "x": 18161, "y": 77.70 },
@@ -1685,11 +1733,11 @@
             "id": 49,
             "name": "Example metric 49",
             "description": "Et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta",
-            "n": 26979,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 36704,
                     "data": [
                         { "x": 839, "y": 9.90 },
                         { "x": 4474, "y": 79.99 },
@@ -1700,6 +1748,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 38521,
                     "data": [
                         { "x": 19920, "y": 36.47 },
                         { "x": 23555, "y": 8.36 },
@@ -1714,11 +1763,11 @@
             "id": 50,
             "name": "Example metric 50",
             "description": "Nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed",
-            "n": 11784,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 41247,
                     "data": [
                         { "x": 6233, "y": 0.42 },
                         { "x": 9868, "y": 61.89 },
@@ -1729,6 +1778,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 43064,
                     "data": [
                         { "x": 24405, "y": 37.21 },
                         { "x": 28040, "y": 8.68 },
@@ -1743,11 +1793,11 @@
             "id": 51,
             "name": "Example metric 51",
             "description": "Est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci",
-            "n": 45992,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 44882,
                     "data": [
                         { "x": 10718, "y": 31.61 },
                         { "x": 14353, "y": 61.01 },
@@ -1758,6 +1808,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 46699,
                     "data": [
                         { "x": 28890, "y": 5.05 },
                         { "x": 32525, "y": 88.06 },
@@ -1772,11 +1823,11 @@
             "id": 52,
             "name": "Example metric 52",
             "description": "Commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit",
-            "n": 39262,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 48516,
                     "data": [
                         { "x": 15203, "y": 23.81 },
                         { "x": 18838, "y": 69.05 },
@@ -1787,6 +1838,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 50333,
                     "data": [
                         { "x": 608, "y": 16.72 },
                         { "x": 4242, "y": 84.76 },
@@ -1801,11 +1853,11 @@
             "id": 53,
             "name": "Example metric 53",
             "description": "Luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et",
-            "n": 38658,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 52151,
                     "data": [
                         { "x": 19688, "y": 78.08 },
                         { "x": 23323, "y": 71.98 },
@@ -1816,6 +1868,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 21200,
                     "data": [
                         { "x": 5093, "y": 73.48 },
                         { "x": 12362, "y": 66.06 },
@@ -1830,11 +1883,11 @@
             "id": 54,
             "name": "Example metric 54",
             "description": "Morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non",
-            "n": 31454,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 23017,
                     "data": [
                         { "x": 28717, "y": 72.33 },
                         { "x": 32351, "y": 85.79 },
@@ -1845,6 +1898,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 24834,
                     "data": [
                         { "x": 14121, "y": 9.17 },
                         { "x": 17755, "y": 20.51 },
@@ -1859,11 +1913,11 @@
             "id": 55,
             "name": "Example metric 55",
             "description": "Tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar",
-            "n": 48118,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 26651,
                     "data": [
                         { "x": 434, "y": 69.99 },
                         { "x": 4068, "y": 50.02 },
@@ -1874,6 +1928,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 28469,
                     "data": [
                         { "x": 18606, "y": 51.61 },
                         { "x": 22240, "y": 21.62 },
@@ -1888,11 +1943,11 @@
             "id": 56,
             "name": "Example metric 56",
             "description": "In libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor",
-            "n": 40477,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 31195,
                     "data": [
                         { "x": 4919, "y": 40.11 },
                         { "x": 8553, "y": 1.86 },
@@ -1903,6 +1958,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 33012,
                     "data": [
                         { "x": 23091, "y": 22.90 },
                         { "x": 26726, "y": 6.33 },
@@ -1917,11 +1973,11 @@
             "id": 57,
             "name": "Example metric 57",
             "description": "Tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam",
-            "n": 30410,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 34829,
                     "data": [
                         { "x": 9404, "y": 36.50 },
                         { "x": 13038, "y": 16.95 },
@@ -1932,6 +1988,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 36646,
                     "data": [
                         { "x": 27576, "y": 32.73 },
                         { "x": 31211, "y": 84.44 },
@@ -1946,11 +2003,11 @@
             "id": 58,
             "name": "Example metric 58",
             "description": "Non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in",
-            "n": 24475,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 38463,
                     "data": [
                         { "x": 13889, "y": 62.76 },
                         { "x": 17524, "y": 80.85 },
@@ -1961,6 +2018,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 40281,
                     "data": [
                         { "x": 32061, "y": 7.33 },
                         { "x": 2928, "y": 79.28 },
@@ -1975,11 +2033,11 @@
             "id": 59,
             "name": "Example metric 59",
             "description": "Dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo",
-            "n": 27615,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 42098,
                     "data": [
                         { "x": 22009, "y": 75.46 },
                         { "x": 25643, "y": 29.00 },
@@ -1990,6 +2048,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 43915,
                     "data": [
                         { "x": 7413, "y": 60.69 },
                         { "x": 11047, "y": 51.66 },
@@ -2004,11 +2063,11 @@
             "id": 60,
             "name": "Example metric 60",
             "description": "Ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis",
-            "n": 49822,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 45732,
                     "data": [
                         { "x": 26494, "y": 87.80 },
                         { "x": 30128, "y": 8.74 },
@@ -2019,6 +2078,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 47550,
                     "data": [
                         { "x": 12807, "y": 54.80 },
                         { "x": 16441, "y": 32.39 },
@@ -2033,11 +2093,11 @@
             "id": 61,
             "name": "Example metric 61",
             "description": "Lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien",
-            "n": 46092,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 49367,
                     "data": [
                         { "x": 31888, "y": 43.67 },
                         { "x": 2754, "y": 40.13 },
@@ -2048,6 +2108,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 51184,
                     "data": [
                         { "x": 17292, "y": 68.18 },
                         { "x": 20926, "y": 70.33 },
@@ -2062,11 +2123,11 @@
             "id": 62,
             "name": "Example metric 62",
             "description": "Est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui",
-            "n": 33970,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 20233,
                     "data": [
                         { "x": 3605, "y": 47.74 },
                         { "x": 7239, "y": 35.42 },
@@ -2077,6 +2138,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 22050,
                     "data": [
                         { "x": 21777, "y": 42.75 },
                         { "x": 25411, "y": 91.27 },
@@ -2091,11 +2153,11 @@
             "id": 63,
             "name": "Example metric 63",
             "description": "Ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat",
-            "n": 10760,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 24776,
                     "data": [
                         { "x": 8090, "y": 23.44 },
                         { "x": 11724, "y": 24.05 },
@@ -2106,6 +2168,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 26594,
                     "data": [
                         { "x": 26262, "y": 98.52 },
                         { "x": 29896, "y": 73.21 },
@@ -2120,11 +2183,11 @@
             "id": 64,
             "name": "Example metric 64",
             "description": "Luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam",
-            "n": 32397,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 28411,
                     "data": [
                         { "x": 15301, "y": 78.03 },
                         { "x": 19844, "y": 24.07 },
@@ -2135,6 +2198,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 30228,
                     "data": [
                         { "x": 2522, "y": 22.38 },
                         { "x": 6157, "y": 57.75 },
@@ -2149,11 +2213,11 @@
             "id": 65,
             "name": "Example metric 65",
             "description": "Eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec",
-            "n": 29531,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 32045,
                     "data": [
                         { "x": 20694, "y": 73.59 },
                         { "x": 24329, "y": 35.58 },
@@ -2164,6 +2228,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 33862,
                     "data": [
                         { "x": 7007, "y": 29.65 },
                         { "x": 10642, "y": 70.89 },
@@ -2178,11 +2243,11 @@
             "id": 66,
             "name": "Example metric 66",
             "description": "Quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit",
-            "n": 12805,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 35680,
                     "data": [
                         { "x": 25180, "y": 68.04 },
                         { "x": 28814, "y": 66.01 },
@@ -2193,6 +2258,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 37497,
                     "data": [
                         { "x": 11492, "y": 58.50 },
                         { "x": 15127, "y": 71.06 },
@@ -2207,11 +2273,11 @@
             "id": 67,
             "name": "Example metric 67",
             "description": "Habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam",
-            "n": 24306,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 39314,
                     "data": [
                         { "x": 29665, "y": 7.11 },
                         { "x": 531, "y": 75.99 },
@@ -2222,6 +2288,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 41131,
                     "data": [
                         { "x": 15978, "y": 81.62 },
                         { "x": 19612, "y": 57.53 },
@@ -2236,11 +2303,11 @@
             "id": 68,
             "name": "Example metric 68",
             "description": "Tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec",
-            "n": 22032,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 42949,
                     "data": [
                         { "x": 1382, "y": 17.74 },
                         { "x": 5016, "y": 47.20 },
@@ -2251,6 +2318,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 44766,
                     "data": [
                         { "x": 20463, "y": 3.61 },
                         { "x": 24097, "y": 63.73 },
@@ -2265,11 +2333,11 @@
             "id": 69,
             "name": "Example metric 69",
             "description": "Vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam",
-            "n": 13626,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 47492,
                     "data": [
                         { "x": 5867, "y": 40.60 },
                         { "x": 9501, "y": 60.64 },
@@ -2280,6 +2348,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 49309,
                     "data": [
                         { "x": 27674, "y": 24.15 },
                         { "x": 32217, "y": 28.93 },
@@ -2294,11 +2363,11 @@
             "id": 70,
             "name": "Example metric 70",
             "description": "Non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget",
-            "n": 48853,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 21993,
                     "data": [
                         { "x": 13987, "y": 13.27 },
                         { "x": 17621, "y": 69.65 },
@@ -2309,6 +2378,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 23810,
                     "data": [
                         { "x": 32159, "y": 92.98 },
                         { "x": 3025, "y": 81.17 },
@@ -2323,11 +2393,11 @@
             "id": 71,
             "name": "Example metric 71",
             "description": "Sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada",
-            "n": 23032,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 26536,
                     "data": [
                         { "x": 18472, "y": 41.63 },
                         { "x": 22106, "y": 66.60 },
@@ -2338,6 +2408,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 28353,
                     "data": [
                         { "x": 3876, "y": 50.97 },
                         { "x": 7510, "y": 29.59 },
@@ -2352,11 +2423,11 @@
             "id": 72,
             "name": "Example metric 72",
             "description": "Proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices",
-            "n": 21542,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 30170,
                     "data": [
                         { "x": 23865, "y": 76.86 },
                         { "x": 27500, "y": 36.53 },
@@ -2367,6 +2438,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 31987,
                     "data": [
                         { "x": 9270, "y": 58.79 },
                         { "x": 12904, "y": 6.35 },
@@ -2381,11 +2453,11 @@
             "id": 73,
             "name": "Example metric 73",
             "description": "Eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla",
-            "n": 19828,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 33804,
                     "data": [
                         { "x": 28350, "y": 5.23 },
                         { "x": 31985, "y": 11.34 },
@@ -2396,6 +2468,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 35622,
                     "data": [
                         { "x": 13755, "y": 53.98 },
                         { "x": 17389, "y": 30.26 },
@@ -2410,11 +2483,11 @@
             "id": 74,
             "name": "Example metric 74",
             "description": "Nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum",
-            "n": 22382,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 37439,
                     "data": [
                         { "x": 68, "y": 92.18 },
                         { "x": 3702, "y": 10.92 },
@@ -2425,6 +2498,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 39256,
                     "data": [
                         { "x": 18240, "y": 19.29 },
                         { "x": 21874, "y": 31.23 },
@@ -2439,11 +2513,11 @@
             "id": 75,
             "name": "Example metric 75",
             "description": "Sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus",
-            "n": 44164,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 41073,
                     "data": [
                         { "x": 9096, "y": 66.67 },
                         { "x": 12730, "y": 67.46 },
@@ -2454,6 +2528,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 43799,
                     "data": [
                         { "x": 27268, "y": 86.42 },
                         { "x": 30902, "y": 30.83 },
@@ -2468,11 +2543,11 @@
             "id": 76,
             "name": "Example metric 76",
             "description": "Quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante",
-            "n": 11412,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 45616,
                     "data": [
                         { "x": 13581, "y": 14.45 },
                         { "x": 17215, "y": 69.26 },
@@ -2483,6 +2558,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 47434,
                     "data": [
                         { "x": 31753, "y": 53.32 },
                         { "x": 2620, "y": 54.54 },
@@ -2497,11 +2573,11 @@
             "id": 77,
             "name": "Example metric 77",
             "description": "Ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer",
-            "n": 28438,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 49251,
                     "data": [
                         { "x": 18066, "y": 52.71 },
                         { "x": 21700, "y": 21.31 },
@@ -2512,6 +2588,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 51068,
                     "data": [
                         { "x": 3470, "y": 80.41 },
                         { "x": 7105, "y": 41.11 },
@@ -2526,11 +2603,11 @@
             "id": 78,
             "name": "Example metric 78",
             "description": "Quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper",
-            "n": 24560,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 20117,
                     "data": [
                         { "x": 22551, "y": 5.26 },
                         { "x": 26186, "y": 22.28 },
@@ -2541,6 +2618,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 21935,
                     "data": [
                         { "x": 7955, "y": 91.37 },
                         { "x": 11590, "y": 37.41 },
@@ -2555,11 +2633,11 @@
             "id": 79,
             "name": "Example metric 79",
             "description": "Sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in",
-            "n": 11349,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 23752,
                     "data": [
                         { "x": 27036, "y": 59.13 },
                         { "x": 30671, "y": 28.18 },
@@ -2570,6 +2648,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 25569,
                     "data": [
                         { "x": 12441, "y": 60.85 },
                         { "x": 16075, "y": 37.44 },
@@ -2584,11 +2663,11 @@
             "id": 80,
             "name": "Example metric 80",
             "description": "Purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
-            "n": 16494,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 27386,
                     "data": [
                         { "x": 2388, "y": 66.29 },
                         { "x": 6022, "y": 24.02 },
@@ -2599,6 +2678,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 29203,
                     "data": [
                         { "x": 20560, "y": 77.39 },
                         { "x": 24195, "y": 53.00 },
@@ -2613,11 +2693,11 @@
             "id": 81,
             "name": "Example metric 81",
             "description": "Tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor",
-            "n": 33071,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 31021,
                     "data": [
                         { "x": 6873, "y": 35.68 },
                         { "x": 10507, "y": 67.98 },
@@ -2628,6 +2708,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 32838,
                     "data": [
                         { "x": 25045, "y": 74.49 },
                         { "x": 28680, "y": 30.49 },
@@ -2642,11 +2723,11 @@
             "id": 82,
             "name": "Example metric 82",
             "description": "Magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
-            "n": 46912,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 35564,
                     "data": [
                         { "x": 11358, "y": 16.44 },
                         { "x": 14993, "y": 43.80 },
@@ -2657,6 +2738,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 37381,
                     "data": [
                         { "x": 29530, "y": 61.67 },
                         { "x": 397, "y": 80.02 },
@@ -2671,11 +2753,11 @@
             "id": 83,
             "name": "Example metric 83",
             "description": "Primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue",
-            "n": 16573,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 39198,
                     "data": [
                         { "x": 16752, "y": 14.90 },
                         { "x": 20386, "y": 61.28 },
@@ -2686,6 +2768,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 41015,
                     "data": [
                         { "x": 2156, "y": 45.71 },
                         { "x": 5791, "y": 48.89 },
@@ -2700,11 +2783,11 @@
             "id": 84,
             "name": "Example metric 84",
             "description": "Pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque",
-            "n": 47805,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 42833,
                     "data": [
                         { "x": 21237, "y": 91.31 },
                         { "x": 24871, "y": 72.00 },
@@ -2715,6 +2798,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 44650,
                     "data": [
                         { "x": 6641, "y": 97.15 },
                         { "x": 10276, "y": 27.20 },
@@ -2729,11 +2813,11 @@
             "id": 85,
             "name": "Example metric 85",
             "description": "Condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus",
-            "n": 41923,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 46467,
                     "data": [
                         { "x": 29357, "y": 51.28 },
                         { "x": 223, "y": 36.36 },
@@ -2744,6 +2828,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 48284,
                     "data": [
                         { "x": 15669, "y": 16.14 },
                         { "x": 19304, "y": 28.43 },
@@ -2758,11 +2843,11 @@
             "id": 86,
             "name": "Example metric 86",
             "description": "Etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices",
-            "n": 30772,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 50102,
                     "data": [
                         { "x": 1074, "y": 55.26 },
                         { "x": 5617, "y": 55.74 },
@@ -2773,6 +2858,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 51919,
                     "data": [
                         { "x": 20154, "y": 9.93 },
                         { "x": 23789, "y": 23.88 },
@@ -2787,11 +2873,11 @@
             "id": 87,
             "name": "Example metric 87",
             "description": "Mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat",
-            "n": 29264,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 20968,
                     "data": [
                         { "x": 5559, "y": 33.00 },
                         { "x": 9193, "y": 80.96 },
@@ -2802,6 +2888,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 22785,
                     "data": [
                         { "x": 24640, "y": 27.47 },
                         { "x": 28274, "y": 59.04 },
@@ -2816,11 +2903,11 @@
             "id": 88,
             "name": "Example metric 88",
             "description": "In est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh",
-            "n": 34197,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 25511,
                     "data": [
                         { "x": 10044, "y": 19.08 },
                         { "x": 13678, "y": 61.12 },
@@ -2831,6 +2918,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 27328,
                     "data": [
                         { "x": 29125, "y": 28.47 },
                         { "x": 32759, "y": 75.83 },
@@ -2845,11 +2933,11 @@
             "id": 89,
             "name": "Example metric 89",
             "description": "Cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna",
-            "n": 31225,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 29146,
                     "data": [
                         { "x": 14529, "y": 46.45 },
                         { "x": 18163, "y": 2.44 },
@@ -2860,6 +2948,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 30963,
                     "data": [
                         { "x": 842, "y": 10.41 },
                         { "x": 4476, "y": 29.87 },
@@ -2874,11 +2963,11 @@
             "id": 90,
             "name": "Example metric 90",
             "description": "Nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in",
-            "n": 14648,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 32780,
                     "data": [
                         { "x": 19014, "y": 10.08 },
                         { "x": 22649, "y": 68.81 },
@@ -2889,6 +2978,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 34597,
                     "data": [
                         { "x": 8961, "y": 51.98 },
                         { "x": 12596, "y": 79.74 },
@@ -2903,11 +2993,11 @@
             "id": 91,
             "name": "Example metric 91",
             "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti",
-            "n": 11823,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 36414,
                     "data": [
                         { "x": 27134, "y": 87.32 },
                         { "x": 30768, "y": 72.28 },
@@ -2918,6 +3008,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 38232,
                     "data": [
                         { "x": 12538, "y": 85.21 },
                         { "x": 17081, "y": 11.72 },
@@ -2932,11 +3023,11 @@
             "id": 92,
             "name": "Example metric 92",
             "description": "Sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra",
-            "n": 10526,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 40049,
                     "data": [
                         { "x": 31619, "y": 5.75 },
                         { "x": 2485, "y": 67.97 },
@@ -2947,6 +3038,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 41866,
                     "data": [
                         { "x": 17023, "y": 7.00 },
                         { "x": 20658, "y": 71.20 },
@@ -2961,11 +3053,11 @@
             "id": 93,
             "name": "Example metric 93",
             "description": "Ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam",
-            "n": 13187,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 43683,
                     "data": [
                         { "x": 3336, "y": 37.73 },
                         { "x": 6970, "y": 26.70 },
@@ -2976,6 +3068,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 45501,
                     "data": [
                         { "x": 21508, "y": 94.41 },
                         { "x": 25143, "y": 76.60 },
@@ -2990,11 +3083,11 @@
             "id": 94,
             "name": "Example metric 94",
             "description": "Consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis",
-            "n": 15397,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 23636,
                     "data": [
                         { "x": 8730, "y": 53.54 },
                         { "x": 12364, "y": 46.46 },
@@ -3005,6 +3098,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 25453,
                     "data": [
                         { "x": 26902, "y": 80.72 },
                         { "x": 30536, "y": 24.66 },
@@ -3019,11 +3113,11 @@
             "id": 95,
             "name": "Example metric 95",
             "description": "Rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed",
-            "n": 33627,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 32722,
                     "data": [
                         { "x": 13215, "y": 97.79 },
                         { "x": 16849, "y": 31.25 },
@@ -3034,6 +3128,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 34539,
                     "data": [
                         { "x": 31387, "y": 3.99 },
                         { "x": 2253, "y": 51.71 },
@@ -3048,11 +3143,11 @@
             "id": 96,
             "name": "Example metric 96",
             "description": "Aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu",
-            "n": 42764,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 39082,
                     "data": [
                         { "x": 22243, "y": 98.18 },
                         { "x": 25877, "y": 10.46 },
@@ -3063,6 +3158,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 40900,
                     "data": [
                         { "x": 7647, "y": 87.47 },
                         { "x": 11282, "y": 72.03 },
@@ -3077,11 +3173,11 @@
             "id": 97,
             "name": "Example metric 97",
             "description": "Volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus",
-            "n": 33074,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 44534,
                     "data": [
                         { "x": 26728, "y": 49.90 },
                         { "x": 30363, "y": 78.48 },
@@ -3092,6 +3188,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 46351,
                     "data": [
                         { "x": 12132, "y": 94.76 },
                         { "x": 15767, "y": 43.01 },
@@ -3106,11 +3203,11 @@
             "id": 98,
             "name": "Example metric 98",
             "description": "Iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia",
-            "n": 48833,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 22669,
                     "data": [
                         { "x": 31213, "y": 28.14 },
                         { "x": 2080, "y": 17.91 },
@@ -3121,6 +3218,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 24487,
                     "data": [
                         { "x": 16617, "y": 64.89 },
                         { "x": 20252, "y": 85.31 },
@@ -3135,11 +3233,11 @@
             "id": 99,
             "name": "Example metric 99",
             "description": "In congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo",
-            "n": 37262,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 27212,
                     "data": [
                         { "x": 2930, "y": 83.43 },
                         { "x": 6565, "y": 20.77 },
@@ -3150,6 +3248,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 29030,
                     "data": [
                         { "x": 21103, "y": 64.91 },
                         { "x": 24737, "y": 31.84 },
@@ -3164,11 +3263,11 @@
             "id": 100,
             "name": "Example metric 100",
             "description": "Sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis",
-            "n": 23736,
             "type": "line",
             "populations": [
                 {
                     "name": "control",
+                    "n": 47202,
                     "data": [
                         { "x": 7415, "y": 88.88 },
                         { "x": 11050, "y": 24.60 },
@@ -3179,6 +3278,7 @@
                 },
                 {
                     "name": "group B",
+                    "n": 49019,
                     "data": [
                         { "x": 25588, "y": 84.90 },
                         { "x": 29222, "y": 60.39 },
