@@ -1,3 +1,5 @@
 {
-    "/experiments": "/experiments-root"
+    "/experiments": "/__experiments-root",
+    "/experiments/:experimentId": "/__experiments/:experimentId",
+    "/experiments/:experimentId/metrics/:metricId": "/__metrics/:metricId"
 }
