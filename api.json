@@ -23,7 +23,7 @@
             "id": 1,
             "name": "Example metric 1",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eget semper eros, ac tempus neque. Ut ipsum turpis, commodo sed nisi at, sollicitudin placerat augue. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Integer tristique euismod elit et varius. Donec ut pretium ligula, a commodo diam. Vivamus auctor auctor ligula, eget volutpat nisi lobortis ac. Donec sit amet venenatis nisi. Sed gravida purus nulla, at ullamcorper ligula ullamcorper non. Mauris venenatis quam non arcu pharetra, ut aliquam nibh sodales. Nullam tincidunt viverra lacinia. Suspendisse quis egestas mi, sit amet dignissim purus. Curabitur auctor leo eu dictum tincidunt. Proin vestibulum molestie dolor a gravida.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "GPUs"
             },
@@ -66,7 +66,7 @@
             "id": 2,
             "name": "Example metric 2",
             "description": "Ut lacus nunc, cursus vitae leo et, dignissim rhoncus augue. Quisque feugiat molestie justo sit amet vestibulum. Phasellus urna velit, condimentum nec tortor vel, imperdiet commodo ligula. Etiam maximus erat non lacus aliquet porta. Phasellus eget luctus enim. Fusce ultrices tellus ut ultrices pretium. Ut ultricies ex hendrerit leo posuere laoreet. Aliquam erat volutpat. Aenean condimentum fringilla massa, a ultricies ex accumsan et. Integer bibendum lorem vel semper pulvinar. Vivamus id nisl ullamcorper massa ullamcorper suscipit vestibulum in tellus. Etiam elementum purus sit amet viverra sodales. Integer lacinia nisi at efficitur blandit. In imperdiet vehicula mauris, vitae pharetra urna porta sit amet. Morbi ut rhoncus augue, ac dictum enim.",
-            "type": "bar",
+            "type": "BooleanHistogram",
             "categories": [
                 "News",
                 "Sports",
@@ -104,7 +104,7 @@
             "id": 3,
             "name": "Example metric 3",
             "description": "Pellentesque luctus mattis nibh vel rhoncus. Mauris maximus elit nec mauris tristique, vitae elementum orci vulputate. Sed in commodo justo. Nam laoreet velit sed leo fringilla, sed viverra lacus pretium. Ut at elit lacus. In blandit egestas consequat. Mauris velit ante, laoreet sit amet pulvinar vitae, volutpat vel purus. Duis accumsan, sapien eget cursus convallis, nisl enim pharetra nisi, at congue elit diam vel libero. Ut cursus ultricies eros in tristique. Mauris massa purus, pretium nec porta iaculis, mollis id ante. Curabitur finibus lectus sed leo sagittis, at scelerisque magna tincidunt. Proin efficitur, nulla at aliquam convallis, justo tortor scelerisque erat, eget porttitor orci sapien vitae purus. Phasellus consequat et arcu ac ultrices. Maecenas gravida quis sapien ac varius. Cras eu pulvinar dui. Aenean et ultrices lectus, in dictum metus.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "Bookmarks"
             },
@@ -146,7 +146,7 @@
             "id": 4,
             "name": "Example metric 4",
             "description": "Fusce massa ante, condimentum vel nisi non, sagittis sagittis mi. Nam tempor hendrerit lectus aliquam congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nulla interdum ut risus ac condimentum. Proin in metus erat. Proin ut purus tempus, tristique purus et, porta dui. Vestibulum fermentum molestie pretium. Fusce ac vestibulum quam. Vivamus sed sem sapien. Nullam dictum velit ac nisl posuere, ut sollicitudin nulla efficitur. Nunc non purus ligula. Fusce id commodo nunc.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "Themes"
             },
@@ -189,7 +189,7 @@
             "id": 5,
             "name": "Example metric 5",
             "description": "Quisque risus ipsum, hendrerit quis sem at, malesuada volutpat nulla. Sed pellentesque consectetur justo, fringilla egestas ipsum. Maecenas ultrices at velit ac vestibulum. Curabitur mi dui, ornare nec lobortis nec, sodales suscipit mi. In a molestie leo. Integer sed erat interdum, porttitor purus eu, tempus purus. Cras congue, risus nec consectetur bibendum, mi nibh pretium metus, id fermentum elit libero et mi. Sed suscipit risus ipsum, eu placerat diam sagittis eu. Vivamus ut nisi et massa auctor blandit. Etiam et urna consectetur, sodales justo ut, viverra lorem. Ut tempus ex ac vulputate vulputate. Nam convallis tortor dolor, laoreet volutpat ante fermentum et.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "Extensions"
             },
@@ -232,7 +232,7 @@
             "id": 6,
             "name": "Example metric 6",
             "description": "Maecenas accumsan vitae mi in malesuada. Proin tincidunt arcu a dictum dapibus. Curabitur ut nulla massa. Morbi et velit mattis, blandit libero vitae, consequat velit. Ut a congue libero. Proin lectus metus, molestie vel ultrices id, sodales ut ex. Ut hendrerit tortor et nunc ullamcorper lacinia. Vivamus aliquet justo quis arcu porttitor suscipit.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "Profiles"
             },
@@ -275,7 +275,7 @@
             "id": 7,
             "name": "Example metric 7",
             "description": "Aenean ornare et erat placerat elementum. Morbi ut erat ac leo feugiat fermentum sit amet eu sapien. Nulla fermentum tincidunt pharetra. Sed sodales mi nec finibus pretium. Etiam facilisis pharetra interdum. Quisque arcu libero, ornare id lorem ut, bibendum tempor massa. Morbi interdum arcu eu massa pulvinar consectetur.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "Crashes"
             },
@@ -318,7 +318,7 @@
             "id": 8,
             "name": "Example metric 8",
             "description": "Maecenas aliquet sagittis consequat. Fusce eget est luctus velit viverra suscipit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam turpis lacus, vehicula eu molestie non, ornare interdum libero. Nullam mauris erat, semper id orci in, iaculis fermentum libero. Suspendisse fermentum, enim et imperdiet scelerisque, nisi turpis aliquet erat, at gravida mauris leo at augue. Ut eu nunc eros. Morbi felis purus, viverra ac aliquet ac, vulputate non enim. Suspendisse vel facilisis ipsum.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "Days"
             },
@@ -361,7 +361,7 @@
             "id": 9,
             "name": "Example metric 9",
             "description": "Vestibulum nec velit facilisis, ornare sapien pulvinar, fringilla nulla. Morbi sit amet tellus eros. Sed blandit elementum ante, nec aliquam leo convallis id. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nunc in arcu eget massa varius laoreet. Praesent a nunc sit amet augue dignissim ullamcorper quis ut arcu. Vivamus sollicitudin laoreet malesuada. Donec congue velit nec vestibulum hendrerit.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "Hard drives"
             },
@@ -404,7 +404,7 @@
             "id": 10,
             "name": "Example metric 10",
             "description": "Vestibulum maximus, mi id volutpat lobortis, lorem risus iaculis dolor, eget ultrices elit arcu eu mauris. Nam blandit semper venenatis. Aliquam faucibus velit at eros pulvinar pellentesque. Aliquam erat volutpat. Nulla quam neque, consectetur in erat id, tempor facilisis turpis. Fusce cursus maximus velit, in accumsan felis iaculis et. Pellentesque iaculis facilisis lacinia. Integer non orci mollis, aliquam ligula ac, varius elit. Praesent sapien erat, imperdiet ac massa in, dictum tincidunt purus. In hac habitasse platea dictumst. Nulla facilisi.",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "units": {
                 "x": "Screens"
             },
@@ -447,7 +447,7 @@
             "id": 11,
             "name": "Example metric 11",
             "description": "Nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -477,7 +477,7 @@
             "id": 12,
             "name": "Example metric 12",
             "description": "Blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -507,7 +507,7 @@
             "id": 13,
             "name": "Example metric 13",
             "description": "Diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -537,7 +537,7 @@
             "id": 14,
             "name": "Example metric 14",
             "description": "Eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -567,7 +567,7 @@
             "id": 15,
             "name": "Example metric 15",
             "description": "Primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -597,7 +597,7 @@
             "id": 16,
             "name": "Example metric 16",
             "description": "Augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -627,7 +627,7 @@
             "id": 17,
             "name": "Example metric 17",
             "description": "Curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -657,7 +657,7 @@
             "id": 18,
             "name": "Example metric 18",
             "description": "Eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -687,7 +687,7 @@
             "id": 19,
             "name": "Example metric 19",
             "description": "Convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -717,7 +717,7 @@
             "id": 20,
             "name": "Example metric 20",
             "description": "Id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -747,7 +747,7 @@
             "id": 21,
             "name": "Example metric 21",
             "description": "Ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -777,7 +777,7 @@
             "id": 22,
             "name": "Example metric 22",
             "description": "At velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -807,7 +807,7 @@
             "id": 23,
             "name": "Example metric 23",
             "description": "Id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -837,7 +837,7 @@
             "id": 24,
             "name": "Example metric 24",
             "description": "Sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -867,7 +867,7 @@
             "id": 25,
             "name": "Example metric 25",
             "description": "Nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -897,7 +897,7 @@
             "id": 26,
             "name": "Example metric 26",
             "description": "Mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -927,7 +927,7 @@
             "id": 27,
             "name": "Example metric 27",
             "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -957,7 +957,7 @@
             "id": 28,
             "name": "Example metric 28",
             "description": "Aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -987,7 +987,7 @@
             "id": 29,
             "name": "Example metric 29",
             "description": "Quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1017,7 +1017,7 @@
             "id": 30,
             "name": "Example metric 30",
             "description": "Nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1047,7 +1047,7 @@
             "id": 31,
             "name": "Example metric 31",
             "description": "Commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1077,7 +1077,7 @@
             "id": 32,
             "name": "Example metric 32",
             "description": "Orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1107,7 +1107,7 @@
             "id": 33,
             "name": "Example metric 33",
             "description": "Tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1137,7 +1137,7 @@
             "id": 34,
             "name": "Example metric 34",
             "description": "Id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1167,7 +1167,7 @@
             "id": 35,
             "name": "Example metric 35",
             "description": "Turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1197,7 +1197,7 @@
             "id": 36,
             "name": "Example metric 36",
             "description": "Eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1227,7 +1227,7 @@
             "id": 37,
             "name": "Example metric 37",
             "description": "Pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1257,7 +1257,7 @@
             "id": 38,
             "name": "Example metric 38",
             "description": "Duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1287,7 +1287,7 @@
             "id": 39,
             "name": "Example metric 39",
             "description": "Integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1317,7 +1317,7 @@
             "id": 40,
             "name": "Example metric 40",
             "description": "Lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1347,7 +1347,7 @@
             "id": 41,
             "name": "Example metric 41",
             "description": "Cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1377,7 +1377,7 @@
             "id": 42,
             "name": "Example metric 42",
             "description": "Faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1407,7 +1407,7 @@
             "id": 43,
             "name": "Example metric 43",
             "description": "Erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam nam tristique",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1437,7 +1437,7 @@
             "id": 44,
             "name": "Example metric 44",
             "description": "Dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1467,7 +1467,7 @@
             "id": 45,
             "name": "Example metric 45",
             "description": "Sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1497,7 +1497,7 @@
             "id": 46,
             "name": "Example metric 46",
             "description": "Eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1527,7 +1527,7 @@
             "id": 47,
             "name": "Example metric 47",
             "description": "Curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1557,7 +1557,7 @@
             "id": 48,
             "name": "Example metric 48",
             "description": "Libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1587,7 +1587,7 @@
             "id": 49,
             "name": "Example metric 49",
             "description": "Et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1617,7 +1617,7 @@
             "id": 50,
             "name": "Example metric 50",
             "description": "Nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1647,7 +1647,7 @@
             "id": 51,
             "name": "Example metric 51",
             "description": "Est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1677,7 +1677,7 @@
             "id": 52,
             "name": "Example metric 52",
             "description": "Commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1707,7 +1707,7 @@
             "id": 53,
             "name": "Example metric 53",
             "description": "Luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1737,7 +1737,7 @@
             "id": 54,
             "name": "Example metric 54",
             "description": "Morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1767,7 +1767,7 @@
             "id": 55,
             "name": "Example metric 55",
             "description": "Tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1797,7 +1797,7 @@
             "id": 56,
             "name": "Example metric 56",
             "description": "In libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1827,7 +1827,7 @@
             "id": 57,
             "name": "Example metric 57",
             "description": "Tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1857,7 +1857,7 @@
             "id": 58,
             "name": "Example metric 58",
             "description": "Non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1887,7 +1887,7 @@
             "id": 59,
             "name": "Example metric 59",
             "description": "Dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1917,7 +1917,7 @@
             "id": 60,
             "name": "Example metric 60",
             "description": "Ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1947,7 +1947,7 @@
             "id": 61,
             "name": "Example metric 61",
             "description": "Lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -1977,7 +1977,7 @@
             "id": 62,
             "name": "Example metric 62",
             "description": "Est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2007,7 +2007,7 @@
             "id": 63,
             "name": "Example metric 63",
             "description": "Ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2037,7 +2037,7 @@
             "id": 64,
             "name": "Example metric 64",
             "description": "Luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2067,7 +2067,7 @@
             "id": 65,
             "name": "Example metric 65",
             "description": "Eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2097,7 +2097,7 @@
             "id": 66,
             "name": "Example metric 66",
             "description": "Quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2127,7 +2127,7 @@
             "id": 67,
             "name": "Example metric 67",
             "description": "Habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2157,7 +2157,7 @@
             "id": 68,
             "name": "Example metric 68",
             "description": "Tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2187,7 +2187,7 @@
             "id": 69,
             "name": "Example metric 69",
             "description": "Vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2217,7 +2217,7 @@
             "id": 70,
             "name": "Example metric 70",
             "description": "Non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2247,7 +2247,7 @@
             "id": 71,
             "name": "Example metric 71",
             "description": "Sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras in purus eu magna vulputate luctus cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus vivamus vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus etiam vel augue vestibulum rutrum rutrum neque aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2277,7 +2277,7 @@
             "id": 72,
             "name": "Example metric 72",
             "description": "Proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam sit amet turpis elementum ligula vehicula consequat morbi a ipsum integer a nibh in quis justo maecenas rhoncus aliquam lacus morbi quis tortor id nulla ultrices",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2307,7 +2307,7 @@
             "id": 73,
             "name": "Example metric 73",
             "description": "Eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque vestibulum eget vulputate ut ultrices vel augue vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2337,7 +2337,7 @@
             "id": 74,
             "name": "Example metric 74",
             "description": "Nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2367,7 +2367,7 @@
             "id": 75,
             "name": "Example metric 75",
             "description": "Sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2397,7 +2397,7 @@
             "id": 76,
             "name": "Example metric 76",
             "description": "Quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2427,7 +2427,7 @@
             "id": 77,
             "name": "Example metric 77",
             "description": "Ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2457,7 +2457,7 @@
             "id": 78,
             "name": "Example metric 78",
             "description": "Quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2487,7 +2487,7 @@
             "id": 79,
             "name": "Example metric 79",
             "description": "Sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2517,7 +2517,7 @@
             "id": 80,
             "name": "Example metric 80",
             "description": "Purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2547,7 +2547,7 @@
             "id": 81,
             "name": "Example metric 81",
             "description": "Tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2577,7 +2577,7 @@
             "id": 82,
             "name": "Example metric 82",
             "description": "Magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2607,7 +2607,7 @@
             "id": 83,
             "name": "Example metric 83",
             "description": "Primis in faucibus orci luctus et ultrices posuere cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2637,7 +2637,7 @@
             "id": 84,
             "name": "Example metric 84",
             "description": "Pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non velit donec diam neque",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2667,7 +2667,7 @@
             "id": 85,
             "name": "Example metric 85",
             "description": "Condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2697,7 +2697,7 @@
             "id": 86,
             "name": "Example metric 86",
             "description": "Etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2727,7 +2727,7 @@
             "id": 87,
             "name": "Example metric 87",
             "description": "Mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2757,7 +2757,7 @@
             "id": 88,
             "name": "Example metric 88",
             "description": "In est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu est congue elementum in hac habitasse platea dictumst morbi vestibulum velit id pretium iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2787,7 +2787,7 @@
             "id": 89,
             "name": "Example metric 89",
             "description": "Cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet lobortis sapien sapien non mi integer ac neque duis bibendum morbi non quam nec dui luctus rutrum nulla tellus in sagittis dui vel nisl duis ac nibh fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend quam a odio in hac habitasse platea dictumst maecenas ut massa quis augue luctus tincidunt nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2817,7 +2817,7 @@
             "id": 90,
             "name": "Example metric 90",
             "description": "Nulla mollis molestie lorem quisque ut erat curabitur gravida nisi at nibh in hac habitasse platea dictumst aliquam augue quam sollicitudin vitae consectetuer eget rutrum at lorem integer tincidunt ante vel ipsum praesent blandit lacinia erat vestibulum sed magna at nunc commodo placerat praesent blandit nam nulla integer pede justo lacinia eget tincidunt eget tempus vel pede morbi porttitor lorem id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi in",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2847,7 +2847,7 @@
             "id": 91,
             "name": "Example metric 91",
             "description": "Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis fusce posuere felis sed lacus morbi sem mauris laoreet ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue risus semper porta volutpat quam pede lobortis ligula sit amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2877,7 +2877,7 @@
             "id": 92,
             "name": "Example metric 92",
             "description": "Sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia nisi venenatis tristique fusce congue diam id ornare imperdiet sapien urna pretium nisl ut volutpat sapien arcu sed augue aliquam erat volutpat in congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2907,7 +2907,7 @@
             "id": 93,
             "name": "Example metric 93",
             "description": "Ipsum dolor sit amet consectetuer adipiscing elit proin risus praesent lectus vestibulum quam sapien varius ut blandit non interdum in ante vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae duis faucibus accumsan odio curabitur convallis duis consequat dui nec nisi volutpat eleifend donec ut dolor morbi vel lectus in quam fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet cursus id turpis integer aliquet massa id lobortis convallis tortor risus dapibus augue vel accumsan tellus nisi eu orci mauris lacinia sapien quis libero nullam",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2937,7 +2937,7 @@
             "id": 94,
             "name": "Example metric 94",
             "description": "Consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2967,7 +2967,7 @@
             "id": 95,
             "name": "Example metric 95",
             "description": "Rhoncus aliquam lacus morbi quis tortor id nulla ultrices aliquet maecenas leo odio condimentum id luctus nec molestie sed justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna ac consequat metus sapien ut nunc vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae mauris viverra diam vitae quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna bibendum imperdiet nullam orci pede venenatis non sodales sed",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -2997,7 +2997,7 @@
             "id": 96,
             "name": "Example metric 96",
             "description": "Aenean auctor gravida sem praesent id massa id nisl venenatis lacinia aenean sit amet justo morbi ut odio cras mi pede malesuada in imperdiet et commodo vulputate justo in blandit ultrices enim lorem ipsum dolor sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -3027,7 +3027,7 @@
             "id": 97,
             "name": "Example metric 97",
             "description": "Volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo pellentesque ultrices mattis odio donec vitae nisi nam ultrices libero non mattis pulvinar nulla pede ullamcorper augue a suscipit nulla elit ac nulla sed vel enim sit amet nunc viverra dapibus nulla suscipit ligula in lacus curabitur at ipsum ac tellus semper interdum mauris ullamcorper purus",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -3057,7 +3057,7 @@
             "id": 98,
             "name": "Example metric 98",
             "description": "Iaculis diam erat fermentum justo nec condimentum neque sapien placerat ante nulla justo aliquam quis turpis eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan tortor quis turpis sed ante vivamus tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis eget eleifend luctus ultricies eu nibh quisque id justo sit amet sapien dignissim vestibulum vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et eros vestibulum ac est lacinia",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -3087,7 +3087,7 @@
             "id": 99,
             "name": "Example metric 99",
             "description": "In congue etiam justo etiam pretium iaculis justo in hac habitasse platea dictumst etiam faucibus cursus urna ut tellus nulla ut erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus vel nulla eget eros elementum pellentesque quisque porta volutpat erat quisque erat eros viverra eget congue eget semper rutrum nulla nunc purus phasellus in felis donec semper sapien a libero nam dui proin leo odio porttitor id consequat in consequat ut nulla sed accumsan felis ut at dolor quis odio consequat varius integer ac leo",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
@@ -3117,7 +3117,7 @@
             "id": 100,
             "name": "Example metric 100",
             "description": "Sit amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque ultrices phasellus id sapien in sapien iaculis congue vivamus metus arcu adipiscing molestie hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo maecenas pulvinar lobortis est phasellus sit amet erat nulla tempus vivamus in felis eu sapien cursus vestibulum proin eu mi nulla ac enim in tempor turpis nec euismod scelerisque quam turpis adipiscing lorem vitae mattis nibh ligula nec sem duis aliquam convallis",
-            "type": "line",
+            "type": "ExponentialHistogram",
             "populations": [
                 {
                     "name": "control",
